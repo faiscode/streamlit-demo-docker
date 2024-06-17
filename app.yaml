@@ -1,9 +1,11 @@
-service: streamlit-demo-app
+service: demo-app-streamlit
 runtime: custom
 env: flex
+
 manual_scaling:
-instances: 1
+  instances: 1
+
 resources:
-cpu: 1
-memory_gb: 0.5
-disk_size_gb: 10
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
