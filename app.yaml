@@ -1,4 +1,4 @@
-service: demo-app-streamlit
+service: default
 runtime: custom
 env: flex
 
